@@ -1,0 +1,33 @@
+﻿@model DetectiveAgency.Models.Employee
+@{
+    ViewData["Title"] = "New Employee Form";
+}
+
+<div class="jumbotron">
+	<h2>New Employee Form</h2>
+	<form asp-action="Index" method="post">
+		<div asp-validation-summary="All"></div>
+		<div>
+			<label asp-for="Id">Id:</label>
+			<input asp-for="Id" />
+		</div>
+		<div>
+			<label asp-for="Name">Name:</label>
+			<input asp-for="Name" />
+		</div>
+		<div>
+			<label asp-for="Hours">Hours:</label>
+			<input asp-for="Hours" />
+		</div>
+		<div>
+			<label asp-for="Rate">Rate:</label>
+			<input asp-for="Rate" />
+		</div>
+		<div>
+			<label>Weekly Gross Pay:</label>
+			<input value="@ViewBag.Salary.ToString("C2")" readonly />
+		</div>
+		<button asp-controller="Home" type="submit">Calculate</button>
+		<a asp-controller="Home" asp-action="Index">Clear</a>
+	</form>
+</div>

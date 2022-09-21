@@ -1,0 +1,86 @@
+﻿body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+}
+
+footer, header {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    flex: 1;
+    padding: 5%;
+    width: auto;
+    opacity: 1;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 150%;
+    text-shadow: 1px 1px black;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 100%;
+    text-shadow: 1px 1px black;
+    color: black;
+    text-align: center;
+}
+
+p, address {
+    color: green;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav {
+    margin: 0px;
+    width: auto;
+    height: auto;
+}
+
+nav ul {
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    color: white;
+    font-weight: 900;
+}
+
+nav ul li {
+    display: inline-table;
+    padding: 5px;
+    color: green;
+}
+
+nav ul li:hover {
+    font-size: 1em;
+}
+
+a {
+    text-align: center;
+    color: grey;
+    font-size: 1em;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    width: auto;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}

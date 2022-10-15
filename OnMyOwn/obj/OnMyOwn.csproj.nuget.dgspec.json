@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crunc\\Source\\Repos\\OnMyOwn\\OnMyOwn.csproj": {}
+    "C:\\Users\\crunc\\OneDrive\\Documents\\CIT 218\\OnMyOwn\\OnMyOwn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crunc\\Source\\Repos\\OnMyOwn\\OnMyOwn.csproj": {
+    "C:\\Users\\crunc\\OneDrive\\Documents\\CIT 218\\OnMyOwn\\OnMyOwn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crunc\\Source\\Repos\\OnMyOwn\\OnMyOwn.csproj",
+        "projectUniqueName": "C:\\Users\\crunc\\OneDrive\\Documents\\CIT 218\\OnMyOwn\\OnMyOwn.csproj",
         "projectName": "OnMyOwn",
-        "projectPath": "C:\\Users\\crunc\\Source\\Repos\\OnMyOwn\\OnMyOwn.csproj",
+        "projectPath": "C:\\Users\\crunc\\OneDrive\\Documents\\CIT 218\\OnMyOwn\\OnMyOwn.csproj",
         "packagesPath": "C:\\Users\\crunc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crunc\\Source\\Repos\\OnMyOwn\\obj\\",
+        "outputPath": "C:\\Users\\crunc\\OneDrive\\Documents\\CIT 218\\OnMyOwn\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,11 +59,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.28, )"
+              "version": "[3.1.30, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.28, )"
+              "version": "[3.1.30, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

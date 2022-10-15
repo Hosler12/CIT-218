@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using OnMyOwn.Models;
 
 namespace OnMyOwn.Data
 {
@@ -12,5 +13,7 @@ namespace OnMyOwn.Data
             : base(options)
         {
         }
+        public DbSet<OnMyOwn.Models.Customer> Customer { get; set; }
+        public DbSet<OnMyOwn.Models.Phone> Phone { get; set; }
     }
 }

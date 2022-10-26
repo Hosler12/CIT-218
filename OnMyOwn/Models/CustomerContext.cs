@@ -30,7 +30,7 @@ namespace OnMyOwn.Models
                     CustomerPhone = "231-499-5412",
                     Address = "01 Fictional Road",
                     City = "Traverse City",
-                    State = "Michigan",
+                    State = "MI",
                     PhoneId = 3
                 },
                 new Customer
@@ -40,7 +40,7 @@ namespace OnMyOwn.Models
                     CustomerPhone = "231-454-4545",
                     Address = "23 Almost Real Drive",
                     City = "Traverse City",
-                    State = "Mich",
+                    State = "MI",
                     PhoneId = 3
                 },
                 new Customer
@@ -50,7 +50,7 @@ namespace OnMyOwn.Models
                     CustomerPhone = "231-489-8474",
                     Address = "45 Kind of Fake Street",
                     City = "Traverse City",
-                    State = "Panic",
+                    State = "MI",
                     PhoneId = 5
                 },
                 new Customer

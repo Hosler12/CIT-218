@@ -35,10 +35,13 @@ namespace OnMyOwn.Migrations
 
                     b.Property<string>("CustomerName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnName("Name")
+                        .HasColumnType("nvarchar(30)")
+                        .HasMaxLength(30);
 
                     b.Property<string>("CustomerPhone")
                         .IsRequired()
+                        .HasColumnName("Phone Number")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PhoneId")
@@ -46,7 +49,8 @@ namespace OnMyOwn.Migrations
 
                     b.Property<string>("State")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(2)")
+                        .HasMaxLength(2);
 
                     b.HasKey("CustomerId");
 
@@ -63,7 +67,7 @@ namespace OnMyOwn.Migrations
                             CustomerName = "Amanda Apple",
                             CustomerPhone = "231-499-5412",
                             PhoneId = 3,
-                            State = "Michigan"
+                            State = "MI"
                         },
                         new
                         {
@@ -73,7 +77,7 @@ namespace OnMyOwn.Migrations
                             CustomerName = "Barry Burro",
                             CustomerPhone = "231-454-4545",
                             PhoneId = 3,
-                            State = "Mich"
+                            State = "MI"
                         },
                         new
                         {
@@ -83,7 +87,7 @@ namespace OnMyOwn.Migrations
                             CustomerName = "Cindy Cavendish",
                             CustomerPhone = "231-489-8474",
                             PhoneId = 5,
-                            State = "Panic"
+                            State = "MI"
                         },
                         new
                         {

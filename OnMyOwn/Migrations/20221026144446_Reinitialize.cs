@@ -2,7 +2,7 @@
 
 namespace OnMyOwn.Migrations
 {
-    public partial class Initial : Migration
+    public partial class Reinitialize : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -26,11 +26,11 @@ namespace OnMyOwn.Migrations
                 {
                     CustomerId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CustomerName = table.Column<string>(nullable: false),
-                    CustomerPhone = table.Column<string>(nullable: false),
+                    Name = table.Column<string>(maxLength: 30, nullable: false),
+                    PhoneNumber = table.Column<string>(name: "Phone Number", nullable: false),
                     Address = table.Column<string>(nullable: false),
                     City = table.Column<string>(nullable: false),
-                    State = table.Column<string>(nullable: false),
+                    State = table.Column<string>(maxLength: 2, nullable: false),
                     PhoneId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -58,14 +58,14 @@ namespace OnMyOwn.Migrations
 
             migrationBuilder.InsertData(
                 table: "Customer",
-                columns: new[] { "CustomerId", "Address", "City", "CustomerName", "CustomerPhone", "PhoneId", "State" },
+                columns: new[] { "CustomerId", "Address", "City", "Name", "Phone Number", "PhoneId", "State" },
                 values: new object[,]
                 {
-                    { 1, "01 Fictional Road", "Traverse City", "Amanda Apple", "231-499-5412", 3, "Michigan" },
-                    { 2, "23 Almost Real Drive", "Traverse City", "Barry Burro", "231-454-4545", 3, "Mich" },
+                    { 1, "01 Fictional Road", "Traverse City", "Amanda Apple", "231-499-5412", 3, "MI" },
+                    { 2, "23 Almost Real Drive", "Traverse City", "Barry Burro", "231-454-4545", 3, "MI" },
                     { 4, "67 Entirely False Boulevard", "Traverse City", "Danny Dacca", "231-458-5454", 4, "MI" },
                     { 5, "89 Something Witty Avenue", "Traverse City", "Emily ", "231-848-6842", 4, "MI" },
-                    { 3, "45 Kind of Fake Street", "Traverse City", "Cindy Cavendish", "231-489-8474", 5, "Panic" }
+                    { 3, "45 Kind of Fake Street", "Traverse City", "Cindy Cavendish", "231-489-8474", 5, "MI" }
                 });
 
             migrationBuilder.CreateIndex(

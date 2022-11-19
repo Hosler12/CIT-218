@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SugarbakersDB", "SugarbakersDB.sqlproj", "{1E5FAAED-092E-43C3-AF26-708664C5ACC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E5FAAED-092E-43C3-AF26-708664C5ACC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5FAAED-092E-43C3-AF26-708664C5ACC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5FAAED-092E-43C3-AF26-708664C5ACC1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E5FAAED-092E-43C3-AF26-708664C5ACC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5FAAED-092E-43C3-AF26-708664C5ACC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5FAAED-092E-43C3-AF26-708664C5ACC1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA905BD8-D7A3-45F1-9079-A2D74A013E94}
+	EndGlobalSection
+EndGlobal

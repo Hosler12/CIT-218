@@ -171,3 +171,4 @@ C:\Users\crunc\OneDrive\Documents\CIT 218\EmployeesCh12\obj\Debug\netcoreapp3.1\
 C:\Users\crunc\OneDrive\Documents\CIT 218\EmployeesCh12\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Details.cshtml.g.cs
 C:\Users\crunc\OneDrive\Documents\CIT 218\EmployeesCh12\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Edit.cshtml.g.cs
 C:\Users\crunc\OneDrive\Documents\CIT 218\EmployeesCh12\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Index.cshtml.g.cs
+C:\Users\crunc\OneDrive\Documents\CIT 218\EmployeesCh12\obj\Debug\netcoreapp3.1\Razor\Views\Employees\DeptCount.cshtml.g.cs

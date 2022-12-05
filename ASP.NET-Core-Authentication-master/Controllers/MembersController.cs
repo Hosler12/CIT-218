@@ -20,14 +20,14 @@ namespace Authentication.Controllers
         }
 
         // GET: Members
-        [Authorize(Roles = "Administrator,Manager,User")]
+        //[Authorize(Roles = "Administrator,Manager,User")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Parent.ToListAsync());
         }
 
         // GET: Members/Details/5
-        [Authorize(Roles = "Administrator,Manager,User")]
+        //[Authorize(Roles = "Administrator,Manager,User")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
